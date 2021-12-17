@@ -1,0 +1,546 @@
+--// Services and Setup:
+
+local TweenService = game:GetService('TweenService')
+local TeleportService = game:GetService("TeleportService")
+local AutofarmEndBlockDebounce = true
+local AutofarmEndBlockActivated = false
+local AutofarmNormalDebounce = true
+local AutofarmNormalActivated = false
+local FloatPlayer = false
+
+--// Instances:
+
+local Undetectable = Instance.new("ScreenGui")
+local MainGUI = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local LeftSide = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local BorderX = Instance.new("Frame")
+local BottomLeft = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local BorderY = Instance.new("Frame")
+local BorderX_2 = Instance.new("Frame")
+local BorderY_2 = Instance.new("Frame")
+local Hub = Instance.new("TextLabel")
+local HubVersion = Instance.new("TextLabel")
+local Sections = Instance.new("ScrollingFrame")
+local AutofarmButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIListLayout = Instance.new("UIListLayout")
+local EventsButton = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local BarZ5 = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local RightSide = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local AutofarmRightSide = Instance.new("ScrollingFrame")
+local AutofarmEndBlock = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local AutofarmNormal = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local EventRightSide = Instance.new("ScrollingFrame")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local EasterEvent = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local HalloweenEvent = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local ChristmasEvent = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local BuildABoatEvent = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+
+--// Properties:
+
+Undetectable.Name = "Undetectable"
+Undetectable.Parent = game.CoreGui
+Undetectable.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainGUI.Name = "MainGUI"
+MainGUI.Parent = Undetectable
+MainGUI.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+MainGUI.BorderSizePixel = 0
+MainGUI.ClipsDescendants = true
+MainGUI.Position = UDim2.new(0.26886791, 0, 0.277864993, 0)
+MainGUI.Size = UDim2.new(0.349999994, 0, 0.449999988, 0)
+MainGUI.Active = true
+MainGUI.Draggable = true
+
+UICorner.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner.Parent = MainGUI
+
+LeftSide.Name = "LeftSide"
+LeftSide.Parent = MainGUI
+LeftSide.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+LeftSide.BorderSizePixel = 0
+LeftSide.Position = UDim2.new(0, 0, -5.32314282e-08, 0)
+LeftSide.Size = UDim2.new(0.224618152, 0, 0.223268792, 0)
+LeftSide.ZIndex = 2
+
+UICorner_2.CornerRadius = UDim.new(0.224999994, 0)
+UICorner_2.Parent = LeftSide
+
+BorderX.Name = "BorderX"
+BorderX.Parent = LeftSide
+BorderX.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+BorderX.BorderSizePixel = 0
+BorderX.Position = UDim2.new(0, 0, 0.765625, 0)
+BorderX.Size = UDim2.new(1, 0, 0.234375, 0)
+BorderX.ZIndex = 2
+
+BottomLeft.Name = "BottomLeft"
+BottomLeft.Parent = LeftSide
+BottomLeft.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+BottomLeft.BorderSizePixel = 0
+BottomLeft.Position = UDim2.new(0, 0, 3.48437524, 0)
+BottomLeft.Size = UDim2.new(1, 0, 0.994531035, 0)
+BottomLeft.ZIndex = 2
+
+UICorner_3.CornerRadius = UDim.new(0.224999994, 0)
+UICorner_3.Parent = BottomLeft
+
+BorderY.Name = "BorderY"
+BorderY.Parent = BottomLeft
+BorderY.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+BorderY.BorderSizePixel = 0
+BorderY.Position = UDim2.new(0.850000024, 0, 0, 0)
+BorderY.Size = UDim2.new(0.150000006, 0, 1, 0)
+BorderY.ZIndex = 2
+
+BorderX_2.Name = "BorderX"
+BorderX_2.Parent = BottomLeft
+BorderX_2.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+BorderX_2.BorderSizePixel = 0
+BorderX_2.Position = UDim2.new(0, 0, -2.49803686, 0)
+BorderX_2.Size = UDim2.new(1, 0, 2.73370075, 0)
+BorderX_2.ZIndex = 2
+
+BorderY_2.Name = "BorderY"
+BorderY_2.Parent = LeftSide
+BorderY_2.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+BorderY_2.BorderSizePixel = 0
+BorderY_2.Position = UDim2.new(0.850000024, 0, 0, 0)
+BorderY_2.Size = UDim2.new(0.150000006, 0, 1, 0)
+BorderY_2.ZIndex = 2
+
+Hub.Name = "Hub"
+Hub.Parent = LeftSide
+Hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hub.BackgroundTransparency = 1.000
+Hub.BorderSizePixel = 0
+Hub.Position = UDim2.new(0.0399999991, 0, 0.140625253, 0)
+Hub.Size = UDim2.new(0.920000017, 0, 0.32812503, 0)
+Hub.ZIndex = 3
+Hub.Font = Enum.Font.SourceSans
+Hub.Text = "Undetectable"
+Hub.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hub.TextScaled = true
+Hub.TextSize = 14.000
+Hub.TextWrapped = true
+
+HubVersion.Name = "HubVersion"
+HubVersion.Parent = LeftSide
+HubVersion.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HubVersion.BackgroundTransparency = 1.000
+HubVersion.BorderSizePixel = 0
+HubVersion.Position = UDim2.new(0.0700000003, 0, 0.468750298, 0)
+HubVersion.Size = UDim2.new(0.850000024, 0, 0.32812503, 0)
+HubVersion.ZIndex = 3
+HubVersion.Font = Enum.Font.SourceSans
+HubVersion.Text = "v1.3"
+HubVersion.TextColor3 = Color3.fromRGB(255, 248, 166)
+HubVersion.TextScaled = true
+HubVersion.TextSize = 14.000
+HubVersion.TextWrapped = true
+
+Sections.Name = "Sections"
+Sections.Parent = LeftSide
+Sections.Active = true
+Sections.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sections.BackgroundTransparency = 1.000
+Sections.BorderSizePixel = 0
+Sections.Position = UDim2.new(0, 0, 1.00000012, 0)
+Sections.Size = UDim2.new(1, 0, 3.46875024, 0)
+Sections.ZIndex = 5
+Sections.CanvasSize = UDim2.new(0, 0, 5, 0)
+Sections.ScrollBarThickness = 5
+
+AutofarmButton.Name = "AutofarmButton"
+AutofarmButton.Parent = Sections
+AutofarmButton.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutofarmButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutofarmButton.BorderSizePixel = 0
+AutofarmButton.Position = UDim2.new(0.0809506848, 0, -6.88413593e-08, 0)
+AutofarmButton.Size = UDim2.new(0.838098407, 0, 0.122970603, 0)
+AutofarmButton.Font = Enum.Font.SourceSans
+AutofarmButton.Text = "Autofarm"
+AutofarmButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutofarmButton.TextScaled = true
+AutofarmButton.TextSize = 14.000
+AutofarmButton.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_4.Parent = AutofarmButton
+
+UIListLayout.Parent = Sections
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0.0199999996, 0)
+
+EventsButton.Name = "EventsButton"
+EventsButton.Parent = Sections
+EventsButton.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+EventsButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+EventsButton.BorderSizePixel = 0
+EventsButton.Position = UDim2.new(0.0809506848, 0, 0.201426923, 0)
+EventsButton.Size = UDim2.new(0.838, 0, 0.123000003, 0)
+EventsButton.Font = Enum.Font.SourceSans
+EventsButton.Text = "Events"
+EventsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+EventsButton.TextScaled = true
+EventsButton.TextSize = 14.000
+EventsButton.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_5.Parent = EventsButton
+
+BarZ5.Name = "BarZ5"
+BarZ5.Parent = MainGUI
+BarZ5.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+BarZ5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BarZ5.BorderSizePixel = 0
+BarZ5.Position = UDim2.new(0, 0, 0.200000003, 0)
+BarZ5.Size = UDim2.new(0.999550819, 0, 0.0139542995, 0)
+BarZ5.ZIndex = 5
+
+Title.Name = "Title"
+Title.Parent = MainGUI
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.251141042, 0, 0.0359679982, 0)
+Title.Size = UDim2.new(0.709793389, 0, 0.146520153, 0)
+Title.ZIndex = 3
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Build a Boat For Treasure"
+Title.TextColor3 = Color3.fromRGB(255, 248, 166)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+RightSide.Name = "RightSide"
+RightSide.Parent = MainGUI
+RightSide.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+RightSide.ClipsDescendants = true
+RightSide.Position = UDim2.new(0.250208497, 0, 0.244584277, 0)
+RightSide.Size = UDim2.new(0.72679615, 0, 0.723270476, 0)
+RightSide.ZIndex = 15
+
+UICorner_6.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_6.Parent = RightSide
+
+AutofarmRightSide.Name = "AutofarmRightSide"
+AutofarmRightSide.Parent = RightSide
+AutofarmRightSide.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AutofarmRightSide.BackgroundTransparency = 1.000
+AutofarmRightSide.ClipsDescendants = false
+AutofarmRightSide.Position = UDim2.new(0, 0, 0.0531400964, 0)
+AutofarmRightSide.Selectable = false
+AutofarmRightSide.Size = UDim2.new(0.977049172, 0, 0.946859896, 0)
+AutofarmRightSide.ZIndex = 16
+AutofarmRightSide.CanvasSize = UDim2.new(0, 0, 1.5, 0)
+AutofarmRightSide.ScrollBarThickness = 5
+
+AutofarmEndBlock.Name = "AutofarmEndBlock"
+AutofarmEndBlock.Parent = AutofarmRightSide
+AutofarmEndBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutofarmEndBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutofarmEndBlock.BorderSizePixel = 0
+AutofarmEndBlock.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutofarmEndBlock.Size = UDim2.new(0.899328887, 0, 0.145807534, 0)
+AutofarmEndBlock.ZIndex = 17
+AutofarmEndBlock.Font = Enum.Font.SourceSans
+AutofarmEndBlock.Text = " Autofarm End Block "
+AutofarmEndBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutofarmEndBlock.TextScaled = true
+AutofarmEndBlock.TextSize = 14.000
+AutofarmEndBlock.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_7.Parent = AutofarmEndBlock
+
+UIListLayout_2.Parent = AutofarmRightSide
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0.0199999996, 0)
+
+AutofarmNormal.Name = "AutofarmNormal"
+AutofarmNormal.Parent = AutofarmRightSide
+AutofarmNormal.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutofarmNormal.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutofarmNormal.BorderSizePixel = 0
+AutofarmNormal.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutofarmNormal.Size = UDim2.new(0.899328887, 0, 0.145807534, 0)
+AutofarmNormal.ZIndex = 17
+AutofarmNormal.Font = Enum.Font.SourceSans
+AutofarmNormal.Text = " Normal Autofarm "
+AutofarmNormal.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutofarmNormal.TextScaled = true
+AutofarmNormal.TextSize = 14.000
+AutofarmNormal.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_8.Parent = AutofarmNormal
+
+EventRightSide.Name = "EventRightSide"
+EventRightSide.Parent = RightSide
+EventRightSide.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EventRightSide.BackgroundTransparency = 1.000
+EventRightSide.ClipsDescendants = false
+EventRightSide.Position = UDim2.new(1.3114754, 0, 0.0531400964, 0)
+EventRightSide.Selectable = false
+EventRightSide.Size = UDim2.new(0.977049172, 0, 0.946859896, 0)
+EventRightSide.ZIndex = 16
+EventRightSide.CanvasSize = UDim2.new(0, 0, 1.5, 0)
+EventRightSide.ScrollBarThickness = 5
+
+UIListLayout_3.Parent = EventRightSide
+UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.Padding = UDim.new(0.0199999996, 0)
+
+EasterEvent.Name = "EasterEvent"
+EasterEvent.Parent = EventRightSide
+EasterEvent.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+EasterEvent.BorderColor3 = Color3.fromRGB(27, 42, 53)
+EasterEvent.BorderSizePixel = 0
+EasterEvent.Position = UDim2.new(0.0503355712, 0, 0, 0)
+EasterEvent.Size = UDim2.new(0.899328887, 0, 0.145807534, 0)
+EasterEvent.ZIndex = 17
+EasterEvent.Font = Enum.Font.SourceSans
+EasterEvent.Text = "Easter Event"
+EasterEvent.TextColor3 = Color3.fromRGB(255, 255, 255)
+EasterEvent.TextScaled = true
+EasterEvent.TextSize = 14.000
+EasterEvent.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_9.Parent = EasterEvent
+
+HalloweenEvent.Name = "HalloweenEvent"
+HalloweenEvent.Parent = EventRightSide
+HalloweenEvent.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+HalloweenEvent.BorderColor3 = Color3.fromRGB(27, 42, 53)
+HalloweenEvent.BorderSizePixel = 0
+HalloweenEvent.Position = UDim2.new(0.0503355712, 0, 0, 0)
+HalloweenEvent.Size = UDim2.new(0.899328887, 0, 0.145807534, 0)
+HalloweenEvent.ZIndex = 17
+HalloweenEvent.Font = Enum.Font.SourceSans
+HalloweenEvent.Text = "Halloween Event"
+HalloweenEvent.TextColor3 = Color3.fromRGB(255, 255, 255)
+HalloweenEvent.TextScaled = true
+HalloweenEvent.TextSize = 14.000
+HalloweenEvent.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_10.Parent = HalloweenEvent
+
+ChristmasEvent.Name = "ChristmasEvent"
+ChristmasEvent.Parent = EventRightSide
+ChristmasEvent.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+ChristmasEvent.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ChristmasEvent.BorderSizePixel = 0
+ChristmasEvent.Position = UDim2.new(0.0503355712, 0, 0, 0)
+ChristmasEvent.Size = UDim2.new(0.899328887, 0, 0.145807534, 0)
+ChristmasEvent.ZIndex = 17
+ChristmasEvent.Font = Enum.Font.SourceSans
+ChristmasEvent.Text = "Christmas Event"
+ChristmasEvent.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChristmasEvent.TextScaled = true
+ChristmasEvent.TextSize = 14.000
+ChristmasEvent.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_11.Parent = ChristmasEvent
+
+BuildABoatEvent.Name = "BuildABoatEvent"
+BuildABoatEvent.Parent = EventRightSide
+BuildABoatEvent.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+BuildABoatEvent.BorderColor3 = Color3.fromRGB(27, 42, 53)
+BuildABoatEvent.BorderSizePixel = 0
+BuildABoatEvent.Position = UDim2.new(0.0503355712, 0, 0, 0)
+BuildABoatEvent.Size = UDim2.new(0.899328887, 0, 0.145807534, 0)
+BuildABoatEvent.ZIndex = 17
+BuildABoatEvent.Font = Enum.Font.SourceSans
+BuildABoatEvent.Text = "Build A Boat"
+BuildABoatEvent.TextColor3 = Color3.fromRGB(255, 255, 255)
+BuildABoatEvent.TextScaled = true
+BuildABoatEvent.TextSize = 14.000
+BuildABoatEvent.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_12.Parent = BuildABoatEvent
+
+--// Setup
+
+wait()
+local guis = {AutofarmRightSide, EventRightSide}
+wait()
+
+--// Functions:
+
+
+AutofarmButton.MouseButton1Click:Connect(function()
+	for i, v in pairs(guis) do
+		v:TweenPosition(UDim2.new(1.311, 0,0.053, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 0.25, true)
+		wait(0.25)
+		AutofarmRightSide:TweenPosition(UDim2.new(0, 0,0.053, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 0.25, true)
+	end
+end)
+
+EventsButton.MouseButton1Click:Connect(function()
+	for i, v in pairs(guis) do
+		v:TweenPosition(UDim2.new(1.311, 0,0.053, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 0.25, true)
+		wait(0.25)
+		EventRightSide:TweenPosition(UDim2.new(0, 0,0.053, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 0.25, true)
+	end
+end)
+
+AutofarmEndBlock.MouseButton1Click:Connect(function()
+	if AutofarmEndBlockActivated == false then
+		AutofarmEndBlockActivated = true
+		AutofarmEndBlockDebounce = false
+		FloatPlayer = true
+		AutofarmEndBlock.TextColor3 = Color3.fromRGB(170, 255, 127)
+	else
+		AutofarmEndBlockActivated = false
+		AutofarmEndBlockDebounce = true
+		FloatPlayer = false
+		AutofarmEndBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end
+end)
+
+
+AutofarmNormal.MouseButton1Click:Connect(function()
+	if AutofarmNormalActivated == false then
+		AutofarmNormalActivated = true
+		AutofarmNormalDebounce = false
+		FloatPlayer = true
+		AutofarmNormal.TextColor3 = Color3.fromRGB(170, 255, 127)
+	else
+		AutofarmNormalActivated = false
+		AutofarmNormalDebounce = true
+		FloatPlayer = false
+		AutofarmNormal.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end
+end)
+
+EasterEvent.MouseButton1Click:Connect(function()
+	local plr = game.Players.LocalPlayer
+	if game.PlaceId ~= 1930863474 then
+		TeleportService:Teleport(1930863474, plr)
+	end
+end)
+
+HalloweenEvent.MouseButton1Click:Connect(function()
+	local plr = game.Players.LocalPlayer
+	if game.PlaceId ~= 1930665568 then
+		TeleportService:Teleport(1930665568, plr)
+	end
+end)
+
+ChristmasEvent.MouseButton1Click:Connect(function()
+	local plr = game.Players.LocalPlayer
+	if game.PlaceId ~= 1930866268 then
+		TeleportService:Teleport(1930866268, plr)
+	end
+end)
+
+BuildABoatEvent.MouseButton1Click:Connect(function()
+	local plr = game.Players.LocalPlayer
+	if game.PlaceId ~= 537413528 then
+		TeleportService:Teleport(537413528, plr)
+	end
+end)
+
+game.Players.LocalPlayer.CharacterAdded:Connect(function()
+	if AutofarmEndBlockActivated == true then
+		FloatPlayer = true
+		wait(math.random(40, 45) / 10)
+		AutofarmEndBlockDebounce = false
+	end
+	if AutofarmNormalActivated == true then
+		FloatPlayer = true
+		wait(math.random(35, 40) / 10)
+		AutofarmNormalDebounce = false
+	end
+end)
+
+
+spawn(function()
+	game:GetService('RunService').RenderStepped:Connect(function()
+		if AutofarmEndBlockDebounce == true then
+			return
+		end
+		AutofarmEndBlockDebounce = true
+		FloatPlayer = true
+		workspace.Gravity = 0
+		local plr = game.Players.LocalPlayer
+		local char = plr.Character
+		if char:FindFirstChild("HumanoidRootPart") then
+			char.HumanoidRootPart.CFrame = CFrame.new(-55.7047195, -9.92602158, -274.044922, -0.999055862, 2.2645871e-08, 0.0434471555, 2.07044444e-08, 1, -4.51347049e-08, -0.0434471555, -4.41925856e-08, -0.999055862) + Vector3.new(0, 50, 0)
+		end
+		wait(2)
+		if char:FindFirstChild("HumanoidRootPart") then
+			TweenService:Create(char.HumanoidRootPart, TweenInfo.new(3), {CFrame = CFrame.new(-51.9900017, 65.4682465, 1675.6886, -0.990144312, -0.00133354811, 0.140044361, 9.09823061e-09, 0.999954641, 0.00952195935, -0.140050709, 0.00942811556, -0.99009943)}):Play()
+		end
+		wait(3)
+		if char:FindFirstChild("HumanoidRootPart") then
+			char.HumanoidRootPart.CFrame = CFrame.new(-55.7047195, -9.92602158, -274.044922, -0.999055862, 2.2645871e-08, 0.0434471555, 2.07044444e-08, 1, -4.51347049e-08, -0.0434471555, -4.41925856e-08, -0.999055862) + Vector3.new(0, 50, 0)
+		end
+		wait()
+		if char:FindFirstChild("HumanoidRootPart") then
+			TweenService:Create(char.HumanoidRootPart, TweenInfo.new(0.15), {CFrame = CFrame.new(-51.9900017, 65.4682465, 1675.6886, -0.990144312, -0.00133354811, 0.140044361, 9.09823061e-09, 0.999954641, 0.00952195935, -0.140050709, 0.00942811556, -0.99009943)}):Play()
+		end
+		wait(0.2)
+		if char:FindFirstChild("HumanoidRootPart") then
+			char:SetPrimaryPartCFrame(CFrame.new(-56.3720551, -360.404144, 9486.87012, -0.999949992, -8.78801814e-08, -0.0100027937, -8.73717738e-08, 1, -5.12630756e-08, 0.0100027937, -5.03865465e-08, -0.999949992))
+		end
+		wait(1)
+		workspace.Gravity = 196.2
+	end)
+end)
+
+
+spawn(function()
+	game:GetService('RunService').RenderStepped:Connect(function()
+		if AutofarmNormalDebounce == true then
+			return
+		end
+		AutofarmNormalDebounce = true
+		FloatPlayer = true
+		workspace.Gravity = 0
+		local plr = game.Players.LocalPlayer
+		local char = plr.Character
+		if char:FindFirstChild("HumanoidRootPart") then
+			char.HumanoidRootPart.CFrame = CFrame.new(-55.7047195, -9.92602158, -274.044922, -0.999055862, 2.2645871e-08, 0.0434471555, 2.07044444e-08, 1, -4.51347049e-08, -0.0434471555, -4.41925856e-08, -0.999055862) + Vector3.new(0, 50, 0)
+		end
+		wait(1)
+		if char:FindFirstChild("HumanoidRootPart") then
+			TweenService:Create(char.HumanoidRootPart, TweenInfo.new(30), {CFrame = CFrame.new(-62.3435783, 37.1261864, 9309.92871, 0.966365039, -8.40041281e-09, 0.257176876, 2.07044444e-08, 1, -4.51347049e-08, -0.257176876, 4.89412777e-08, 0.966365039)}):Play()
+		end
+		wait(29)
+		if char:FindFirstChild("HumanoidRootPart") then
+			TweenService:Create(char.HumanoidRootPart, TweenInfo.new(2), {CFrame = CFrame.new(-56.427002, -360.430267, 9483.74902, -0.999547422, 4.76316799e-08, 0.0300814454, 4.78301097e-08, 1, 5.87685989e-09, -0.0300814454, 7.31299954e-09, -0.999547422)}):Play()
+		end
+		wait(3)
+		workspace.Gravity = 196.2
+	end)
+end)
+
+
+game:GetService('RunService').RenderStepped:Connect(function()
+	if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") and FloatPlayer == true then
+		game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+	end
+end)

@@ -29,26 +29,108 @@ local UICorner_4 = Instance.new("UICorner")
 local UIListLayout = Instance.new("UIListLayout")
 local EventsButton = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
+local AutobuyButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
 local BarZ5 = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
 local RightSide = Instance.new("Frame")
-local UICorner_6 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local AutofarmRightSide = Instance.new("ScrollingFrame")
 local AutofarmEndBlock = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local UIListLayout_2 = Instance.new("UIListLayout")
 local AutofarmNormal = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local EventRightSide = Instance.new("ScrollingFrame")
 local UIListLayout_3 = Instance.new("UIListLayout")
 local EasterEvent = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local HalloweenEvent = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
-local ChristmasEvent = Instance.new("TextButton")
+local HalloweenEvent = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
-local BuildABoatEvent = Instance.new("TextButton")
+local ChristmasEvent = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
+local BuildABoatEvent = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local AutoBuyRightSide = Instance.new("ScrollingFrame")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local Quantity = Instance.new("TextBox")
+local UICorner_14 = Instance.new("UICorner")
+local AutobuyGift4 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local AutobuySign = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local AutobuyBoatMotor = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local AutobuyCar_Parts = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local AutobuyLegacyCarPack = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local AutobuyBalloons = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local AutobuyJetPacks = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local AutobuyPlane_Parts = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local AutobuyParachutes = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local AutobuyShield_Generator = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local AutobuyHarpoon = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local AutobuyHingeBlocks = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local AutobuyDelay = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local AutobuyPistons = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local AutobuyLocked_Doors = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local AutobuyMagnets = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local AutobuyPVP_Pack = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local AutobuySwitch = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local AutoBuyButtn = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local AutobuyLightBulb = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local AutobuyCamera = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local AutobuyCameraDome = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local AutobuyWoodBlock = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local AutobuyGlassBlock = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local AutobuyStoneBlock = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local AutobuyFabricBlock = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local AutobuyPlasticBlock = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local AutobuyGrassBlock = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local AutobuySandBlock = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local AutobuyRustedBlock = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local AutobuyMetalBlock = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+local AutobuyConcreteBlock = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
+local AutobuyIceBlock = Instance.new("TextButton")
+local UICorner_47 = Instance.new("UICorner")
+local AutobuyCoalBlock = Instance.new("TextButton")
+local UICorner_48 = Instance.new("UICorner")
+local AutobuyBrickBlock = Instance.new("TextButton")
+local UICorner_49 = Instance.new("UICorner")
+local AutobuyMarbleBlock = Instance.new("TextButton")
+local UICorner_50 = Instance.new("UICorner")
+local AutobuyTitaniumBlock = Instance.new("TextButton")
+local UICorner_51 = Instance.new("UICorner")
+local AutobuyObsidianBlock = Instance.new("TextButton")
+local UICorner_52 = Instance.new("UICorner")
 
 --// Properties:
 
@@ -147,7 +229,7 @@ HubVersion.Position = UDim2.new(0.0700000003, 0, 0.468750298, 0)
 HubVersion.Size = UDim2.new(0.850000024, 0, 0.32812503, 0)
 HubVersion.ZIndex = 3
 HubVersion.Font = Enum.Font.SourceSans
-HubVersion.Text = "v1.3"
+HubVersion.Text = "v1.4"
 HubVersion.TextColor3 = Color3.fromRGB(255, 248, 166)
 HubVersion.TextScaled = true
 HubVersion.TextSize = 14.000
@@ -204,6 +286,23 @@ EventsButton.TextWrapped = true
 UICorner_5.CornerRadius = UDim.new(0.150000006, 0)
 UICorner_5.Parent = EventsButton
 
+AutobuyButton.Name = "AutobuyButton"
+AutobuyButton.Parent = Sections
+AutobuyButton.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyButton.BorderSizePixel = 0
+AutobuyButton.Position = UDim2.new(0.0809506848, 0, 0.201426923, 0)
+AutobuyButton.Size = UDim2.new(0.838, 0, 0.123000003, 0)
+AutobuyButton.Font = Enum.Font.SourceSans
+AutobuyButton.Text = "Autobuy"
+AutobuyButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyButton.TextScaled = true
+AutobuyButton.TextSize = 14.000
+AutobuyButton.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_6.Parent = AutobuyButton
+
 BarZ5.Name = "BarZ5"
 BarZ5.Parent = MainGUI
 BarZ5.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
@@ -236,13 +335,15 @@ RightSide.Position = UDim2.new(0.250208497, 0, 0.244584277, 0)
 RightSide.Size = UDim2.new(0.72679615, 0, 0.723270476, 0)
 RightSide.ZIndex = 15
 
-UICorner_6.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_6.Parent = RightSide
+UICorner_7.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_7.Parent = RightSide
 
 AutofarmRightSide.Name = "AutofarmRightSide"
 AutofarmRightSide.Parent = RightSide
 AutofarmRightSide.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 AutofarmRightSide.BackgroundTransparency = 1.000
+AutofarmRightSide.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutofarmRightSide.BorderSizePixel = 0
 AutofarmRightSide.ClipsDescendants = false
 AutofarmRightSide.Position = UDim2.new(0, 0, 0.0531400964, 0)
 AutofarmRightSide.Selectable = false
@@ -266,8 +367,8 @@ AutofarmEndBlock.TextScaled = true
 AutofarmEndBlock.TextSize = 14.000
 AutofarmEndBlock.TextWrapped = true
 
-UICorner_7.CornerRadius = UDim.new(0.150000006, 0)
-UICorner_7.Parent = AutofarmEndBlock
+UICorner_8.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_8.Parent = AutofarmEndBlock
 
 UIListLayout_2.Parent = AutofarmRightSide
 UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
@@ -289,13 +390,15 @@ AutofarmNormal.TextScaled = true
 AutofarmNormal.TextSize = 14.000
 AutofarmNormal.TextWrapped = true
 
-UICorner_8.CornerRadius = UDim.new(0.150000006, 0)
-UICorner_8.Parent = AutofarmNormal
+UICorner_9.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_9.Parent = AutofarmNormal
 
 EventRightSide.Name = "EventRightSide"
 EventRightSide.Parent = RightSide
 EventRightSide.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 EventRightSide.BackgroundTransparency = 1.000
+EventRightSide.BorderColor3 = Color3.fromRGB(27, 42, 53)
+EventRightSide.BorderSizePixel = 0
 EventRightSide.ClipsDescendants = false
 EventRightSide.Position = UDim2.new(1.3114754, 0, 0.0531400964, 0)
 EventRightSide.Selectable = false
@@ -324,8 +427,8 @@ EasterEvent.TextScaled = true
 EasterEvent.TextSize = 14.000
 EasterEvent.TextWrapped = true
 
-UICorner_9.CornerRadius = UDim.new(0.150000006, 0)
-UICorner_9.Parent = EasterEvent
+UICorner_10.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_10.Parent = EasterEvent
 
 HalloweenEvent.Name = "HalloweenEvent"
 HalloweenEvent.Parent = EventRightSide
@@ -342,8 +445,8 @@ HalloweenEvent.TextScaled = true
 HalloweenEvent.TextSize = 14.000
 HalloweenEvent.TextWrapped = true
 
-UICorner_10.CornerRadius = UDim.new(0.150000006, 0)
-UICorner_10.Parent = HalloweenEvent
+UICorner_11.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_11.Parent = HalloweenEvent
 
 ChristmasEvent.Name = "ChristmasEvent"
 ChristmasEvent.Parent = EventRightSide
@@ -360,8 +463,8 @@ ChristmasEvent.TextScaled = true
 ChristmasEvent.TextSize = 14.000
 ChristmasEvent.TextWrapped = true
 
-UICorner_11.CornerRadius = UDim.new(0.150000006, 0)
-UICorner_11.Parent = ChristmasEvent
+UICorner_12.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_12.Parent = ChristmasEvent
 
 BuildABoatEvent.Name = "BuildABoatEvent"
 BuildABoatEvent.Parent = EventRightSide
@@ -378,17 +481,898 @@ BuildABoatEvent.TextScaled = true
 BuildABoatEvent.TextSize = 14.000
 BuildABoatEvent.TextWrapped = true
 
-UICorner_12.CornerRadius = UDim.new(0.150000006, 0)
-UICorner_12.Parent = BuildABoatEvent
+UICorner_13.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_13.Parent = BuildABoatEvent
+
+AutoBuyRightSide.Name = "AutoBuyRightSide"
+AutoBuyRightSide.Parent = RightSide
+AutoBuyRightSide.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AutoBuyRightSide.BackgroundTransparency = 1.000
+AutoBuyRightSide.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutoBuyRightSide.BorderSizePixel = 0
+AutoBuyRightSide.ClipsDescendants = false
+AutoBuyRightSide.Position = UDim2.new(1.31099999, 0, 0.0529999994, 0)
+AutoBuyRightSide.Selectable = false
+AutoBuyRightSide.Size = UDim2.new(0.977049172, 0, 0.946859896, 0)
+AutoBuyRightSide.ZIndex = 16
+AutoBuyRightSide.CanvasSize = UDim2.new(0, 0, 10, 0)
+AutoBuyRightSide.ScrollBarThickness = 5
+
+UIListLayout_4.Parent = AutoBuyRightSide
+UIListLayout_4.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.Padding = UDim.new(0.00449999981, 0)
+
+Quantity.Name = "Quantity"
+Quantity.Parent = AutoBuyRightSide
+Quantity.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+Quantity.Position = UDim2.new(0.050500039, 0, 0, 0)
+Quantity.Size = UDim2.new(0.898999989, 0, 0.0299999993, 0)
+Quantity.ZIndex = 17
+Quantity.Font = Enum.Font.Cartoon
+Quantity.PlaceholderText = "Quantity"
+Quantity.Text = ""
+Quantity.TextColor3 = Color3.fromRGB(255, 231, 169)
+Quantity.TextScaled = true
+Quantity.TextSize = 14.000
+Quantity.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_14.Parent = Quantity
+
+AutobuyGift4.Name = "AutobuyGift4"
+AutobuyGift4.Parent = AutoBuyRightSide
+AutobuyGift4.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyGift4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyGift4.BorderSizePixel = 0
+AutobuyGift4.Position = UDim2.new(0.0503355712, 0, 0.3136684, 0)
+AutobuyGift4.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyGift4.ZIndex = 17
+AutobuyGift4.Font = Enum.Font.SourceSans
+AutobuyGift4.Text = "Purple Gift"
+AutobuyGift4.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyGift4.TextScaled = true
+AutobuyGift4.TextSize = 14.000
+AutobuyGift4.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_15.Parent = AutobuyGift4
+
+AutobuySign.Name = "AutobuySign"
+AutobuySign.Parent = AutoBuyRightSide
+AutobuySign.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuySign.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuySign.BorderSizePixel = 0
+AutobuySign.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuySign.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuySign.ZIndex = 17
+AutobuySign.Font = Enum.Font.SourceSans
+AutobuySign.Text = "Sign"
+AutobuySign.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuySign.TextScaled = true
+AutobuySign.TextSize = 14.000
+AutobuySign.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_16.Parent = AutobuySign
+
+AutobuyBoatMotor.Name = "AutobuyBoatMotor"
+AutobuyBoatMotor.Parent = AutoBuyRightSide
+AutobuyBoatMotor.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyBoatMotor.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyBoatMotor.BorderSizePixel = 0
+AutobuyBoatMotor.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyBoatMotor.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyBoatMotor.ZIndex = 17
+AutobuyBoatMotor.Font = Enum.Font.SourceSans
+AutobuyBoatMotor.Text = "Boat Motor"
+AutobuyBoatMotor.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyBoatMotor.TextScaled = true
+AutobuyBoatMotor.TextSize = 14.000
+AutobuyBoatMotor.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_17.Parent = AutobuyBoatMotor
+
+AutobuyCar_Parts.Name = "AutobuyCar_Parts"
+AutobuyCar_Parts.Parent = AutoBuyRightSide
+AutobuyCar_Parts.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyCar_Parts.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyCar_Parts.BorderSizePixel = 0
+AutobuyCar_Parts.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyCar_Parts.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyCar_Parts.ZIndex = 17
+AutobuyCar_Parts.Font = Enum.Font.SourceSans
+AutobuyCar_Parts.Text = "Car Parts"
+AutobuyCar_Parts.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyCar_Parts.TextScaled = true
+AutobuyCar_Parts.TextSize = 14.000
+AutobuyCar_Parts.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_18.Parent = AutobuyCar_Parts
+
+AutobuyLegacyCarPack.Name = "AutobuyLegacyCarPack"
+AutobuyLegacyCarPack.Parent = AutoBuyRightSide
+AutobuyLegacyCarPack.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyLegacyCarPack.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyLegacyCarPack.BorderSizePixel = 0
+AutobuyLegacyCarPack.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyLegacyCarPack.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyLegacyCarPack.ZIndex = 17
+AutobuyLegacyCarPack.Font = Enum.Font.SourceSans
+AutobuyLegacyCarPack.Text = "Legacy Car Pack"
+AutobuyLegacyCarPack.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyLegacyCarPack.TextScaled = true
+AutobuyLegacyCarPack.TextSize = 14.000
+AutobuyLegacyCarPack.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_19.Parent = AutobuyLegacyCarPack
+
+AutobuyBalloons.Name = "AutobuyBalloons"
+AutobuyBalloons.Parent = AutoBuyRightSide
+AutobuyBalloons.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyBalloons.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyBalloons.BorderSizePixel = 0
+AutobuyBalloons.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyBalloons.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyBalloons.ZIndex = 17
+AutobuyBalloons.Font = Enum.Font.SourceSans
+AutobuyBalloons.Text = "Balloons"
+AutobuyBalloons.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyBalloons.TextScaled = true
+AutobuyBalloons.TextSize = 14.000
+AutobuyBalloons.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_20.Parent = AutobuyBalloons
+
+AutobuyJetPacks.Name = "AutobuyJetPacks"
+AutobuyJetPacks.Parent = AutoBuyRightSide
+AutobuyJetPacks.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyJetPacks.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyJetPacks.BorderSizePixel = 0
+AutobuyJetPacks.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyJetPacks.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyJetPacks.ZIndex = 17
+AutobuyJetPacks.Font = Enum.Font.SourceSans
+AutobuyJetPacks.Text = "JetPacks"
+AutobuyJetPacks.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyJetPacks.TextScaled = true
+AutobuyJetPacks.TextSize = 14.000
+AutobuyJetPacks.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_21.Parent = AutobuyJetPacks
+
+AutobuyPlane_Parts.Name = "AutobuyPlane_Parts"
+AutobuyPlane_Parts.Parent = AutoBuyRightSide
+AutobuyPlane_Parts.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyPlane_Parts.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyPlane_Parts.BorderSizePixel = 0
+AutobuyPlane_Parts.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyPlane_Parts.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyPlane_Parts.ZIndex = 17
+AutobuyPlane_Parts.Font = Enum.Font.SourceSans
+AutobuyPlane_Parts.Text = "Plane Parts"
+AutobuyPlane_Parts.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyPlane_Parts.TextScaled = true
+AutobuyPlane_Parts.TextSize = 14.000
+AutobuyPlane_Parts.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_22.Parent = AutobuyPlane_Parts
+
+AutobuyParachutes.Name = "AutobuyParachutes"
+AutobuyParachutes.Parent = AutoBuyRightSide
+AutobuyParachutes.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyParachutes.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyParachutes.BorderSizePixel = 0
+AutobuyParachutes.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyParachutes.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyParachutes.ZIndex = 17
+AutobuyParachutes.Font = Enum.Font.SourceSans
+AutobuyParachutes.Text = "Parachutes"
+AutobuyParachutes.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyParachutes.TextScaled = true
+AutobuyParachutes.TextSize = 14.000
+AutobuyParachutes.TextWrapped = true
+
+UICorner_23.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_23.Parent = AutobuyParachutes
+
+AutobuyShield_Generator.Name = "AutobuyShield_Generator"
+AutobuyShield_Generator.Parent = AutoBuyRightSide
+AutobuyShield_Generator.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyShield_Generator.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyShield_Generator.BorderSizePixel = 0
+AutobuyShield_Generator.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyShield_Generator.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyShield_Generator.ZIndex = 17
+AutobuyShield_Generator.Font = Enum.Font.SourceSans
+AutobuyShield_Generator.Text = "Shield Generators"
+AutobuyShield_Generator.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyShield_Generator.TextScaled = true
+AutobuyShield_Generator.TextSize = 14.000
+AutobuyShield_Generator.TextWrapped = true
+
+UICorner_24.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_24.Parent = AutobuyShield_Generator
+
+AutobuyHarpoon.Name = "AutobuyHarpoon"
+AutobuyHarpoon.Parent = AutoBuyRightSide
+AutobuyHarpoon.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyHarpoon.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyHarpoon.BorderSizePixel = 0
+AutobuyHarpoon.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyHarpoon.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyHarpoon.ZIndex = 17
+AutobuyHarpoon.Font = Enum.Font.SourceSans
+AutobuyHarpoon.Text = "Harpoon"
+AutobuyHarpoon.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyHarpoon.TextScaled = true
+AutobuyHarpoon.TextSize = 14.000
+AutobuyHarpoon.TextWrapped = true
+
+UICorner_25.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_25.Parent = AutobuyHarpoon
+
+AutobuyHingeBlocks.Name = "AutobuyHingeBlocks"
+AutobuyHingeBlocks.Parent = AutoBuyRightSide
+AutobuyHingeBlocks.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyHingeBlocks.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyHingeBlocks.BorderSizePixel = 0
+AutobuyHingeBlocks.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyHingeBlocks.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyHingeBlocks.ZIndex = 17
+AutobuyHingeBlocks.Font = Enum.Font.SourceSans
+AutobuyHingeBlocks.Text = "Hinge Block"
+AutobuyHingeBlocks.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyHingeBlocks.TextScaled = true
+AutobuyHingeBlocks.TextSize = 14.000
+AutobuyHingeBlocks.TextWrapped = true
+
+UICorner_26.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_26.Parent = AutobuyHingeBlocks
+
+AutobuyDelay.Name = "AutobuyDelay"
+AutobuyDelay.Parent = AutoBuyRightSide
+AutobuyDelay.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyDelay.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyDelay.BorderSizePixel = 0
+AutobuyDelay.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyDelay.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyDelay.ZIndex = 17
+AutobuyDelay.Font = Enum.Font.SourceSans
+AutobuyDelay.Text = "Delay"
+AutobuyDelay.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyDelay.TextScaled = true
+AutobuyDelay.TextSize = 14.000
+AutobuyDelay.TextWrapped = true
+
+UICorner_27.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_27.Parent = AutobuyDelay
+
+AutobuyPistons.Name = "AutobuyPistons"
+AutobuyPistons.Parent = AutoBuyRightSide
+AutobuyPistons.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyPistons.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyPistons.BorderSizePixel = 0
+AutobuyPistons.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyPistons.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyPistons.ZIndex = 17
+AutobuyPistons.Font = Enum.Font.SourceSans
+AutobuyPistons.Text = "Piston"
+AutobuyPistons.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyPistons.TextScaled = true
+AutobuyPistons.TextSize = 14.000
+AutobuyPistons.TextWrapped = true
+
+UICorner_28.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_28.Parent = AutobuyPistons
+
+AutobuyLocked_Doors.Name = "AutobuyLocked_Doors"
+AutobuyLocked_Doors.Parent = AutoBuyRightSide
+AutobuyLocked_Doors.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyLocked_Doors.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyLocked_Doors.BorderSizePixel = 0
+AutobuyLocked_Doors.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyLocked_Doors.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyLocked_Doors.ZIndex = 17
+AutobuyLocked_Doors.Font = Enum.Font.SourceSans
+AutobuyLocked_Doors.Text = "Locked Door"
+AutobuyLocked_Doors.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyLocked_Doors.TextScaled = true
+AutobuyLocked_Doors.TextSize = 14.000
+AutobuyLocked_Doors.TextWrapped = true
+
+UICorner_29.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_29.Parent = AutobuyLocked_Doors
+
+AutobuyMagnets.Name = "AutobuyMagnets"
+AutobuyMagnets.Parent = AutoBuyRightSide
+AutobuyMagnets.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyMagnets.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyMagnets.BorderSizePixel = 0
+AutobuyMagnets.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyMagnets.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyMagnets.ZIndex = 17
+AutobuyMagnets.Font = Enum.Font.SourceSans
+AutobuyMagnets.Text = "Magnet"
+AutobuyMagnets.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyMagnets.TextScaled = true
+AutobuyMagnets.TextSize = 14.000
+AutobuyMagnets.TextWrapped = true
+
+UICorner_30.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_30.Parent = AutobuyMagnets
+
+AutobuyPVP_Pack.Name = "AutobuyPVP_Pack"
+AutobuyPVP_Pack.Parent = AutoBuyRightSide
+AutobuyPVP_Pack.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyPVP_Pack.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyPVP_Pack.BorderSizePixel = 0
+AutobuyPVP_Pack.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyPVP_Pack.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyPVP_Pack.ZIndex = 17
+AutobuyPVP_Pack.Font = Enum.Font.SourceSans
+AutobuyPVP_Pack.Text = "PVP Pack"
+AutobuyPVP_Pack.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyPVP_Pack.TextScaled = true
+AutobuyPVP_Pack.TextSize = 14.000
+AutobuyPVP_Pack.TextWrapped = true
+
+UICorner_31.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_31.Parent = AutobuyPVP_Pack
+
+AutobuySwitch.Name = "AutobuySwitch"
+AutobuySwitch.Parent = AutoBuyRightSide
+AutobuySwitch.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuySwitch.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuySwitch.BorderSizePixel = 0
+AutobuySwitch.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuySwitch.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuySwitch.ZIndex = 17
+AutobuySwitch.Font = Enum.Font.SourceSans
+AutobuySwitch.Text = "Switch"
+AutobuySwitch.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuySwitch.TextScaled = true
+AutobuySwitch.TextSize = 14.000
+AutobuySwitch.TextWrapped = true
+
+UICorner_32.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_32.Parent = AutobuySwitch
+
+AutoBuyButtn.Name = "AutoBuyButtn"
+AutoBuyButtn.Parent = AutoBuyRightSide
+AutoBuyButtn.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutoBuyButtn.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutoBuyButtn.BorderSizePixel = 0
+AutoBuyButtn.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutoBuyButtn.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutoBuyButtn.ZIndex = 17
+AutoBuyButtn.Font = Enum.Font.SourceSans
+AutoBuyButtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoBuyButtn.TextScaled = true
+AutoBuyButtn.TextSize = 14.000
+AutoBuyButtn.TextWrapped = true
+
+UICorner_33.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_33.Parent = AutoBuyButtn
+
+AutobuyLightBulb.Name = "AutobuyLightBulb"
+AutobuyLightBulb.Parent = AutoBuyRightSide
+AutobuyLightBulb.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyLightBulb.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyLightBulb.BorderSizePixel = 0
+AutobuyLightBulb.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyLightBulb.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyLightBulb.ZIndex = 17
+AutobuyLightBulb.Font = Enum.Font.SourceSans
+AutobuyLightBulb.Text = "Light Bulb"
+AutobuyLightBulb.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyLightBulb.TextScaled = true
+AutobuyLightBulb.TextSize = 14.000
+AutobuyLightBulb.TextWrapped = true
+
+UICorner_34.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_34.Parent = AutobuyLightBulb
+
+AutobuyCamera.Name = "AutobuyCamera"
+AutobuyCamera.Parent = AutoBuyRightSide
+AutobuyCamera.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyCamera.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyCamera.BorderSizePixel = 0
+AutobuyCamera.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyCamera.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyCamera.ZIndex = 17
+AutobuyCamera.Font = Enum.Font.SourceSans
+AutobuyCamera.Text = "Camera"
+AutobuyCamera.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyCamera.TextScaled = true
+AutobuyCamera.TextSize = 14.000
+AutobuyCamera.TextWrapped = true
+
+UICorner_35.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_35.Parent = AutobuyCamera
+
+AutobuyCameraDome.Name = "AutobuyCameraDome"
+AutobuyCameraDome.Parent = AutoBuyRightSide
+AutobuyCameraDome.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyCameraDome.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyCameraDome.BorderSizePixel = 0
+AutobuyCameraDome.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyCameraDome.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyCameraDome.ZIndex = 17
+AutobuyCameraDome.Font = Enum.Font.SourceSans
+AutobuyCameraDome.Text = "Dome Camera"
+AutobuyCameraDome.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyCameraDome.TextScaled = true
+AutobuyCameraDome.TextSize = 14.000
+AutobuyCameraDome.TextWrapped = true
+
+UICorner_36.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_36.Parent = AutobuyCameraDome
+
+AutobuyWoodBlock.Name = "AutobuyWoodBlock"
+AutobuyWoodBlock.Parent = AutoBuyRightSide
+AutobuyWoodBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyWoodBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyWoodBlock.BorderSizePixel = 0
+AutobuyWoodBlock.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyWoodBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyWoodBlock.ZIndex = 17
+AutobuyWoodBlock.Font = Enum.Font.SourceSans
+AutobuyWoodBlock.Text = "Wood Block"
+AutobuyWoodBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyWoodBlock.TextScaled = true
+AutobuyWoodBlock.TextSize = 14.000
+AutobuyWoodBlock.TextWrapped = true
+
+UICorner_37.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_37.Parent = AutobuyWoodBlock
+
+AutobuyGlassBlock.Name = "AutobuyGlassBlock"
+AutobuyGlassBlock.Parent = AutoBuyRightSide
+AutobuyGlassBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyGlassBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyGlassBlock.BorderSizePixel = 0
+AutobuyGlassBlock.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyGlassBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyGlassBlock.ZIndex = 17
+AutobuyGlassBlock.Font = Enum.Font.SourceSans
+AutobuyGlassBlock.Text = "Glass Block"
+AutobuyGlassBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyGlassBlock.TextScaled = true
+AutobuyGlassBlock.TextSize = 14.000
+AutobuyGlassBlock.TextWrapped = true
+
+UICorner_38.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_38.Parent = AutobuyGlassBlock
+
+AutobuyStoneBlock.Name = "AutobuyStoneBlock"
+AutobuyStoneBlock.Parent = AutoBuyRightSide
+AutobuyStoneBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyStoneBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyStoneBlock.BorderSizePixel = 0
+AutobuyStoneBlock.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyStoneBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyStoneBlock.ZIndex = 17
+AutobuyStoneBlock.Font = Enum.Font.SourceSans
+AutobuyStoneBlock.Text = "Stone Block"
+AutobuyStoneBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyStoneBlock.TextScaled = true
+AutobuyStoneBlock.TextSize = 14.000
+AutobuyStoneBlock.TextWrapped = true
+
+UICorner_39.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_39.Parent = AutobuyStoneBlock
+
+AutobuyFabricBlock.Name = "AutobuyFabricBlock"
+AutobuyFabricBlock.Parent = AutoBuyRightSide
+AutobuyFabricBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyFabricBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyFabricBlock.BorderSizePixel = 0
+AutobuyFabricBlock.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyFabricBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyFabricBlock.ZIndex = 17
+AutobuyFabricBlock.Font = Enum.Font.SourceSans
+AutobuyFabricBlock.Text = "Fabric Block"
+AutobuyFabricBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyFabricBlock.TextScaled = true
+AutobuyFabricBlock.TextSize = 14.000
+AutobuyFabricBlock.TextWrapped = true
+
+UICorner_40.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_40.Parent = AutobuyFabricBlock
+
+AutobuyPlasticBlock.Name = "AutobuyPlasticBlock"
+AutobuyPlasticBlock.Parent = AutoBuyRightSide
+AutobuyPlasticBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyPlasticBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyPlasticBlock.BorderSizePixel = 0
+AutobuyPlasticBlock.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyPlasticBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyPlasticBlock.ZIndex = 17
+AutobuyPlasticBlock.Font = Enum.Font.SourceSans
+AutobuyPlasticBlock.Text = "Plastic Block"
+AutobuyPlasticBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyPlasticBlock.TextScaled = true
+AutobuyPlasticBlock.TextSize = 14.000
+AutobuyPlasticBlock.TextWrapped = true
+
+UICorner_41.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_41.Parent = AutobuyPlasticBlock
+
+AutobuyGrassBlock.Name = "AutobuyGrassBlock"
+AutobuyGrassBlock.Parent = AutoBuyRightSide
+AutobuyGrassBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyGrassBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyGrassBlock.BorderSizePixel = 0
+AutobuyGrassBlock.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyGrassBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyGrassBlock.ZIndex = 17
+AutobuyGrassBlock.Font = Enum.Font.SourceSans
+AutobuyGrassBlock.Text = "Grass Block"
+AutobuyGrassBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyGrassBlock.TextScaled = true
+AutobuyGrassBlock.TextSize = 14.000
+AutobuyGrassBlock.TextWrapped = true
+
+UICorner_42.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_42.Parent = AutobuyGrassBlock
+
+AutobuySandBlock.Name = "AutobuySandBlock"
+AutobuySandBlock.Parent = AutoBuyRightSide
+AutobuySandBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuySandBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuySandBlock.BorderSizePixel = 0
+AutobuySandBlock.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuySandBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuySandBlock.ZIndex = 17
+AutobuySandBlock.Font = Enum.Font.SourceSans
+AutobuySandBlock.Text = "Sand Block"
+AutobuySandBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuySandBlock.TextScaled = true
+AutobuySandBlock.TextSize = 14.000
+AutobuySandBlock.TextWrapped = true
+
+UICorner_43.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_43.Parent = AutobuySandBlock
+
+AutobuyRustedBlock.Name = "AutobuyRustedBlock"
+AutobuyRustedBlock.Parent = AutoBuyRightSide
+AutobuyRustedBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyRustedBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyRustedBlock.BorderSizePixel = 0
+AutobuyRustedBlock.Position = UDim2.new(0.0503355712, 0, 0.3136684, 0)
+AutobuyRustedBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyRustedBlock.ZIndex = 17
+AutobuyRustedBlock.Font = Enum.Font.SourceSans
+AutobuyRustedBlock.Text = "Rusted Block"
+AutobuyRustedBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyRustedBlock.TextScaled = true
+AutobuyRustedBlock.TextSize = 14.000
+AutobuyRustedBlock.TextWrapped = true
+
+UICorner_44.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_44.Parent = AutobuyRustedBlock
+
+AutobuyMetalBlock.Name = "AutobuyMetalBlock"
+AutobuyMetalBlock.Parent = AutoBuyRightSide
+AutobuyMetalBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyMetalBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyMetalBlock.BorderSizePixel = 0
+AutobuyMetalBlock.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyMetalBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyMetalBlock.ZIndex = 17
+AutobuyMetalBlock.Font = Enum.Font.SourceSans
+AutobuyMetalBlock.Text = "Metal Block"
+AutobuyMetalBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyMetalBlock.TextScaled = true
+AutobuyMetalBlock.TextSize = 14.000
+AutobuyMetalBlock.TextWrapped = true
+
+UICorner_45.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_45.Parent = AutobuyMetalBlock
+
+AutobuyConcreteBlock.Name = "AutobuyConcreteBlock"
+AutobuyConcreteBlock.Parent = AutoBuyRightSide
+AutobuyConcreteBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyConcreteBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyConcreteBlock.BorderSizePixel = 0
+AutobuyConcreteBlock.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyConcreteBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyConcreteBlock.ZIndex = 17
+AutobuyConcreteBlock.Font = Enum.Font.SourceSans
+AutobuyConcreteBlock.Text = "Concrete Block"
+AutobuyConcreteBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyConcreteBlock.TextScaled = true
+AutobuyConcreteBlock.TextSize = 14.000
+AutobuyConcreteBlock.TextWrapped = true
+
+UICorner_46.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_46.Parent = AutobuyConcreteBlock
+
+AutobuyIceBlock.Name = "AutobuyIceBlock"
+AutobuyIceBlock.Parent = AutoBuyRightSide
+AutobuyIceBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyIceBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyIceBlock.BorderSizePixel = 0
+AutobuyIceBlock.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyIceBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyIceBlock.ZIndex = 17
+AutobuyIceBlock.Font = Enum.Font.SourceSans
+AutobuyIceBlock.Text = "Ice Block"
+AutobuyIceBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyIceBlock.TextScaled = true
+AutobuyIceBlock.TextSize = 14.000
+AutobuyIceBlock.TextWrapped = true
+
+UICorner_47.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_47.Parent = AutobuyIceBlock
+
+AutobuyCoalBlock.Name = "AutobuyCoalBlock"
+AutobuyCoalBlock.Parent = AutoBuyRightSide
+AutobuyCoalBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyCoalBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyCoalBlock.BorderSizePixel = 0
+AutobuyCoalBlock.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyCoalBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyCoalBlock.ZIndex = 17
+AutobuyCoalBlock.Font = Enum.Font.SourceSans
+AutobuyCoalBlock.Text = "Coal Block"
+AutobuyCoalBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyCoalBlock.TextScaled = true
+AutobuyCoalBlock.TextSize = 14.000
+AutobuyCoalBlock.TextWrapped = true
+
+UICorner_48.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_48.Parent = AutobuyCoalBlock
+
+AutobuyBrickBlock.Name = "AutobuyBrickBlock"
+AutobuyBrickBlock.Parent = AutoBuyRightSide
+AutobuyBrickBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyBrickBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyBrickBlock.BorderSizePixel = 0
+AutobuyBrickBlock.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyBrickBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyBrickBlock.ZIndex = 17
+AutobuyBrickBlock.Font = Enum.Font.SourceSans
+AutobuyBrickBlock.Text = "Brick Block"
+AutobuyBrickBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyBrickBlock.TextScaled = true
+AutobuyBrickBlock.TextSize = 14.000
+AutobuyBrickBlock.TextWrapped = true
+
+UICorner_49.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_49.Parent = AutobuyBrickBlock
+
+AutobuyMarbleBlock.Name = "AutobuyMarbleBlock"
+AutobuyMarbleBlock.Parent = AutoBuyRightSide
+AutobuyMarbleBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyMarbleBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyMarbleBlock.BorderSizePixel = 0
+AutobuyMarbleBlock.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyMarbleBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyMarbleBlock.ZIndex = 17
+AutobuyMarbleBlock.Font = Enum.Font.SourceSans
+AutobuyMarbleBlock.Text = "Marble Block"
+AutobuyMarbleBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyMarbleBlock.TextScaled = true
+AutobuyMarbleBlock.TextSize = 14.000
+AutobuyMarbleBlock.TextWrapped = true
+
+UICorner_50.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_50.Parent = AutobuyMarbleBlock
+
+AutobuyTitaniumBlock.Name = "AutobuyTitaniumBlock"
+AutobuyTitaniumBlock.Parent = AutoBuyRightSide
+AutobuyTitaniumBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyTitaniumBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyTitaniumBlock.BorderSizePixel = 0
+AutobuyTitaniumBlock.Position = UDim2.new(0.0503355712, 0, 0, 0)
+AutobuyTitaniumBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyTitaniumBlock.ZIndex = 17
+AutobuyTitaniumBlock.Font = Enum.Font.SourceSans
+AutobuyTitaniumBlock.Text = "Titanium Block"
+AutobuyTitaniumBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyTitaniumBlock.TextScaled = true
+AutobuyTitaniumBlock.TextSize = 14.000
+AutobuyTitaniumBlock.TextWrapped = true
+
+UICorner_51.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_51.Parent = AutobuyTitaniumBlock
+
+AutobuyObsidianBlock.Name = "AutobuyObsidianBlock"
+AutobuyObsidianBlock.Parent = AutoBuyRightSide
+AutobuyObsidianBlock.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AutobuyObsidianBlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutobuyObsidianBlock.BorderSizePixel = 0
+AutobuyObsidianBlock.Position = UDim2.new(0.0503355712, 0, 0.3136684, 0)
+AutobuyObsidianBlock.Size = UDim2.new(0.898999989, 0, 0.0199999996, 0)
+AutobuyObsidianBlock.ZIndex = 17
+AutobuyObsidianBlock.Font = Enum.Font.SourceSans
+AutobuyObsidianBlock.Text = "Obsidian Block"
+AutobuyObsidianBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutobuyObsidianBlock.TextScaled = true
+AutobuyObsidianBlock.TextSize = 14.000
+AutobuyObsidianBlock.TextWrapped = true
+
+UICorner_52.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_52.Parent = AutobuyObsidianBlock
+
 
 --// Setup
 
 wait()
-local guis = {AutofarmRightSide, EventRightSide}
+local guis = {AutofarmRightSide, EventRightSide, AutoBuyRightSide}
 wait()
 
 --// Functions:
 
+local function buy(Item, A_2, BlockNumber)
+	local Event = game:GetService("Workspace").ItemBoughtFromShop
+	spawn(function()
+		for i = 1, BlockNumber do
+			Event:InvokeServer(Item, A_2)
+			wait()
+		end
+	end)
+end
+
+AutobuyGift4.MouseButton1Click:Connect(function()
+	buy("Gift4", 1, tonumber(Quantity.Text))
+end)
+
+AutobuySign.MouseButton1Click:Connect(function()
+	buy("Sign", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyBoatMotor.MouseButton1Click:Connect(function()
+	buy("BoatMotor", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyCar_Parts.MouseButton1Click:Connect(function()
+	buy("Car Parts", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyLegacyCarPack.MouseButton1Click:Connect(function()
+	buy("LegacyCarPack", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyBalloons.MouseButton1Click:Connect(function()
+	buy("Balloons", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyJetPacks.MouseButton1Click:Connect(function()
+	buy("JetPacks", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyPlane_Parts.MouseButton1Click:Connect(function()
+	buy("Plane Parts", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyParachutes.MouseButton1Click:Connect(function()
+	buy("Parachutes", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyDelay.MouseButton1Click:Connect(function()
+	buy("Delay", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyShield_Generator.MouseButton1Click:Connect(function()
+	buy("Shield Generators", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyHingeBlocks.MouseButton1Click:Connect(function()
+	buy("HingeBlocks", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyHarpoon.MouseButton1Click:Connect(function()
+	buy("Harpoon", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyPistons.MouseButton1Click:Connect(function()
+	buy("Pistons", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyLocked_Doors.MouseButton1Click:Connect(function()
+	buy("Locked Doors", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyPVP_Pack.MouseButton1Click:Connect(function()
+	buy("PVP Pack", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyMagnets.MouseButton1Click:Connect(function()
+	buy("Magnets", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyLightBulb.MouseButton1Click:Connect(function()
+	buy("LightBulb", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyCamera.MouseButton1Click:Connect(function()
+	buy("Camera", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyPlasticBlock.MouseButton1Click:Connect(function()
+	buy("PlasticBlock", 1, tonumber(Quantity.Text))
+end)
+
+AutobuySandBlock.MouseButton1Click:Connect(function()
+	buy("SandBlock", 1, tonumber(Quantity.Text))
+end)
+
+AutobuySwitch.MouseButton1Click:Connect(function()
+	buy("Switch", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyGlassBlock.MouseButton1Click:Connect(function()
+	buy("GlassBlock", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyCameraDome.MouseButton1Click:Connect(function()
+	buy("CameraDome", 1, tonumber(Quantity.Text))
+end)
+
+AutoBuyButtn.MouseButton1Click:Connect(function()
+	buy("Button", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyWoodBlock.MouseButton1Click:Connect(function()
+	buy("WoodBlock", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyStoneBlock.MouseButton1Click:Connect(function()
+	buy("StoneBlock", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyFabricBlock.MouseButton1Click:Connect(function()
+	buy("FabricBlock", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyGrassBlock.MouseButton1Click:Connect(function()
+	buy("GrassBlock", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyRustedBlock.MouseButton1Click:Connect(function()
+	buy("RustedBlock", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyMetalBlock.MouseButton1Click:Connect(function()
+	buy("MetalBlock", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyConcreteBlock.MouseButton1Click:Connect(function()
+	buy("ConcreteBlock", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyCoalBlock.MouseButton1Click:Connect(function()
+	buy("CoalBlock", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyMarbleBlock.MouseButton1Click:Connect(function()
+	buy("MarbleBlock", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyIceBlock.MouseButton1Click:Connect(function()
+	buy("IceBlock", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyBrickBlock.MouseButton1Click:Connect(function()
+	buy("BrickBlock", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyTitaniumBlock.MouseButton1Click:Connect(function()
+	buy("TitaniumBlock", 1, tonumber(Quantity.Text))
+end)
+
+AutobuyObsidianBlock.MouseButton1Click:Connect(function()
+	buy("ObsidianBlock", 1, tonumber(Quantity.Text))
+end)
 
 AutofarmButton.MouseButton1Click:Connect(function()
 	for i, v in pairs(guis) do
@@ -403,6 +1387,14 @@ EventsButton.MouseButton1Click:Connect(function()
 		v:TweenPosition(UDim2.new(1.311, 0,0.053, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 0.25, true)
 		wait(0.25)
 		EventRightSide:TweenPosition(UDim2.new(0, 0,0.053, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 0.25, true)
+	end
+end)
+
+AutobuyButton.MouseButton1Click:Connect(function()
+	for i, v in pairs(guis) do
+		v:TweenPosition(UDim2.new(1.311, 0,0.053, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 0.25, true)
+		wait(0.25)
+		AutoBuyRightSide:TweenPosition(UDim2.new(0, 0,0.053, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 0.25, true)
 	end
 end)
 
